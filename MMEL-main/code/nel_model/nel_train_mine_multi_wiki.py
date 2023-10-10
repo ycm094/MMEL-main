@@ -37,7 +37,7 @@ MODEL_CLASSES = tuple(m.model_type for m in MODEL_MAPPING)
 
 TOKENIZER_ARGS = ["do_lower_case", "strip_accents", "keep_accents", "use_fast"]
 
-root_path = '/home/yangchengmei/CODE/MEL-GHMFC-main/code/'
+root_path = '/home/yangchengmei/CODE/MMEL-main/code/'
 def parse_arg():
     parser = argparse.ArgumentParser()
 
